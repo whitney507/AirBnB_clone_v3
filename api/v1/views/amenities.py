@@ -1,4 +1,3 @@
-```python
 #!/usr/bin/python3
 """
 Routes for managing Amenity objects and associated operations.
@@ -98,4 +97,4 @@ def delete_amenity_by_id(amenity_id):
     storage.save()
 
     return jsonify({})
-```
+

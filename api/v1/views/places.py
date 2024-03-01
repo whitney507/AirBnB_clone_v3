@@ -1,4 +1,3 @@
-```python
 #!/usr/bin/python3
 """
 Route for handling Place objects and operations.
@@ -114,4 +113,3 @@ def delete_place_by_id(place_id):
     storage.save()
 
     return jsonify({})
-```

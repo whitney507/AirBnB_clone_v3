@@ -1,4 +1,3 @@
-```python
 #!/usr/bin/python3
 """
 Route handling State objects and operations
@@ -109,4 +108,3 @@ def delete_city_by_id(city_id):
     storage.save()
 
     return jsonify({})
-```

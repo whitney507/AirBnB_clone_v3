@@ -1,4 +1,3 @@
-```python
 #!/usr/bin/python3
 """Unit Test for BaseModel Class"""
 
@@ -111,4 +110,3 @@ class TestStateDBInstances(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-```

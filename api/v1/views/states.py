@@ -1,4 +1,3 @@
-```python
 #!/usr/bin/python3
 """
 Routes for managing State objects and associated operations.
@@ -96,4 +95,3 @@ def delete_state_by_id(state_id):
     storage.save()
 
     return jsonify({})
-```

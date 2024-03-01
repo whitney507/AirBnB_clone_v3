@@ -1,4 +1,3 @@
-```python
 #!/usr/bin/python3
 """JSON Storage Module"""
 
@@ -109,4 +108,3 @@ class FileStorage:
         Calls the reload() method for deserialization from JSON to objects
         """
         self.reload()
-```

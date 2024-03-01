@@ -1,4 +1,3 @@
-```python
 #!/usr/bin/python3
 """
 Endpoints for providing index information.
@@ -43,4 +42,4 @@ def stats():
     resp.status_code = 200
 
     return resp
-```
+

@@ -1,4 +1,3 @@
-```python
 #!/usr/bin/python3
 """
 BaseModel Class for the Models Module
@@ -95,4 +94,3 @@ class BaseModel:
         Delete the current instance from storage.
         """
         self.delete()
-```

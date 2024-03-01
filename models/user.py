@@ -1,4 +1,3 @@
-```python
 #!/usr/bin/python3
 """
 User Class for the Models Module
@@ -53,4 +52,4 @@ class User(BaseModel, Base):
         :return: Nothing.
         """
         self.__dict__["password"] = md5(password.encode('utf-8')).hexdigest()
-```
+

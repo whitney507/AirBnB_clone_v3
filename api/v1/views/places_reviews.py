@@ -1,4 +1,3 @@
-```python
 #!/usr/bin/python3
 """
 Route for handling Review objects and related operations.
@@ -119,4 +118,4 @@ def delete_review_by_id(review_id):
     storage.save()
 
     return jsonify({})
-```
+

@@ -1,4 +1,3 @@
-```python
 #!/usr/bin/python3
 """
 Route for handling linking between places and amenities.
@@ -94,4 +93,4 @@ def link_amenity_to_place(place_id, amenity_id):
     resp.status_code = 201
 
     return resp
-```
+
